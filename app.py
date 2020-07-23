@@ -8,14 +8,15 @@ import re
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = b'fr\xb2\xa8\xfa\xbf{\x95\x0b0}M'
-bcrypt=Bcrypt(app)
+app.config['SECRET_KEY'] = b'nY87\xd8a,\x9a\xa0}_\x15\xc2\xe4\xcb\xa0\xe7"q}I^\x93\xda'
+
 connection1 = pypyodbc.connect(
     "Driver={SQL Server};"
-    "Server=LAPTOP-PB290PQU;"
+    "Server=LAPTOP-BOMRFKPS;"
     "Database=project;"
     "Trusted_Connection=yes;"
 )
+
 global mng
 
 
