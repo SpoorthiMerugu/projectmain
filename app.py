@@ -1,3 +1,4 @@
+import bcrypt
 from flask import Flask, render_template, url_for, redirect, flash, request, session
 import os
 import secrets
